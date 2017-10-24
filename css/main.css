@@ -29,6 +29,12 @@ h2 {
 	margin-bottom: 10px;
 }
 
+h3 {
+	font-size: 1.8em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 header {
 	width: 100%;
 	height: auto;
@@ -155,39 +161,128 @@ main {
 	background-color: #18bc9c;
 	border: 2px solid #fff;
 	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
 	vertical-align: center;
 
 }
 
 .button a:hover {
 	color: #18bc9c;
+	transition: background-color 0.3s ease-out;
 	background-color: #fff;
 }
 
-/* Seccion acerca de */
+/* Seccion Contacto */
 
 .contact {
 	background-color: #fff;
 	color: #212529;
-	text-align: center;
+	text-align: center;	
+	padding-bottom: 30px;
+}
+
+form {
+	width: 100%;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-family: 'Lato', sans-serif; 
+}
+
+input, textarea {
+	width: 60%;
+	border: none;
+	border-bottom: 1px solid #eee;
+	font-family: 'Lato', sans-serif; 
+	font-size: 1.5em;
+	outline: 0;
+	resize: none;
+	color: #495057;
+}
+
+input {
+	padding-bottom: 20px;
+}
+
+.button-send a {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif; 
+	font-size: 1.2em;
+	color: #fff;
+	background-color: #18bc9c;
+	border: 2px solid #fff;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	vertical-align: center;
+}
+
+.button-send a:hover {
+	color: #fff;
+	transition: background-color 0.2s ease-out;
+	background-color: #009676;
 }
 
 /* Iconos Fontawesome */
+
 .fa-star {
 	font-size: 2em;
 }
 
+.fa-facebook, .fa-google-plus, .fa-twitter, .fa-linkedin, .fa-dribbble {
+	width: 50px;
+	height: 50px;
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+
+
+
+/* Pie de Pagina */
+
 footer {
   width: 100%;
-  min-height: 70px;
+  padding: 20px;
+  height: auto;
+  color: #fff;
   background-color: #2c3e50;
-  display: table;
+  display: block;
 }
 
 footer p {
+  width: 100%;
   color: #fff;
   font-family: 'Lato', sans-serif;
   text-align: center;
-  display: table-cell;
+  display: inline-block;
   vertical-align: middle;
+}
+
+.footer-columns {
+	width: 28%;
+	height: auto;
+	margin: 2.5%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+.footer-columns p {
+	font-family: 'Lato', sans-serif; 
+	font-size: 1.2em;
+}
+
+.footer-columns a {
+	color: #18bc9c;
+	text-decoration: none;
+}
+
+.footer-columns a:hover {
+	text-decoration: underline;
 }
