@@ -35,6 +35,8 @@ h3 {
 	margin-bottom: 10px;
 }
 
+/* Cabecera */ 
+
 header {
 	width: 100%;
 	height: auto;
@@ -83,6 +85,23 @@ nav a:hover {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
+
+.line-white {
+	width: 100px;
+	height: 5px;
+	background-color: #fff;
+	display: inline-block;
+	margin: 8px;
+}
+
+.line-dark {
+	width: 100px;
+	height: 5px;
+	background-color: #212529;
+	display: inline-block;
+	margin: 8px;
+}
+
 
 main {
 	width: 100%;
