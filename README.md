@@ -77,4 +77,21 @@ Este reto será evaluado sobre lo siguiente:
 * Nombramiento de clases, id, etc
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+* Uso de comentarios para hacer tu código más legible.
+
+# Proyecto Freelancer (Readme)
+
+La carpeta proyecto contiene:
+
+* index.html (Archivo html)
+* Carpeta CSS con main.css (Hoja de Estilo)
+* Carpeta assets con las imagenes
+
+La estructura del html se compone de
+
+* `<header>`: Contiene div con el logo y un `<nav>` los enlaces de navegación en etiquetas `<a>`.
+* `<main>`: Contiene la informacion del sitio dividida en secciones `<section>` y un pie de página `<footer>`, este ultimo contiene 3 columnas llamadas `content` que tienen el mismo ancho.
+
+Para estructurar la mayor parte del sitio se utilizó HTML semántico y para el resto de las secciones se utilizaron `div` con clases.
+
+Para el caso del `CSS` el estilo se ordena desde lo mas general a lo mas específico partiendo desde el selector universal `*`, `body` hasta llegar al desglose de forma descendente.
